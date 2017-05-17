@@ -23,18 +23,15 @@
         android:layout_marginEnd="71dp"
         tools:layout_constraintLeft_creator="1" />
 
-    <EditText
+    <TextView
         android:id="@+id/TextoNovaFraseId"
-        android:layout_width="320dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="50dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoje"
         android:textColor="@android:color/background_light"
-        android:textSize="@dimen/texto_nova_frase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botaoNovaFraseId"
-        tools:layout_constraintTop_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/botaoNovaFraseId" />
+
 </android.support.constraint.ConstraintLayout>
